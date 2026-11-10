@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inseri Tarefa</title>
+</head>
+<body>
+    <form action="#" method="POST">
+        <p>Insira as informações da nova tarerefa</p>
+        <input type="text" alt="Descrição" name="descricao" required />
+        <label for="descricao">Descricao</label>
+        <input type="date" alt="Data Limite" name="dataLim" required/>
+        <label for="dataLim">Data limite</label>
+        <p>Defina uma prioridade para a sua tarefa</p>
+            <input type="radio" name="prioridade" value="0" id="baixa_prioridade" required>
+            <label for="baixa_prioridade">Baixa</label>
+            <input type="radio" name="prioridade" value="1" id="media_prioridade" required>
+            <label for="media_prioridade">Média</label>
+            <input type="radio" name="prioridade" value="2" id="alta_prioridade" required>
+            <label for="alta_prioridade">Alta</label>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
